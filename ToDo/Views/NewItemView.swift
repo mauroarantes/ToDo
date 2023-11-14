@@ -22,11 +22,11 @@ struct NewItemView: View {
                 HStack {
                     TextField("Title", text: $viewModel.name)
                     Spacer()
-                    Button {
-                        viewModel.isComplete.toggle()
-                    } label: {
-                        Image(systemName: viewModel.isComplete ? "checkmark.circle.fill" : "circle")
-                    }
+                    Image(systemName: viewModel.isComplete ? "checkmark.circle.fill" : "circle")
+                        .foregroundColor(.blue)
+                        .onTapGesture {
+                            viewModel.isComplete.toggle()
+                        }
                 }
                 
                 Button {
