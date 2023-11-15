@@ -11,7 +11,6 @@ struct NewItemView: View {
     
     @StateObject var viewModel = NewItemViewModel()
     @EnvironmentObject var listViewModel: ToDoListViewModel
-    @Environment(\.dismiss) var dismiss
     
     var body: some View {
         VStack {
@@ -34,7 +33,6 @@ struct NewItemView: View {
                     let parameters: [String: Any] = ["todoName": viewModel.name, "isComplete": viewModel.isComplete]
                     listViewModel.createItem(parameters: parameters)
                     listViewModel.showNewItemView = false
-                    dismiss()
                 } label: {
                     Text("Save")
                         .frame(maxWidth: .infinity)

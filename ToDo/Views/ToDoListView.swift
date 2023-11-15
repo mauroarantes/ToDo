@@ -34,6 +34,11 @@ struct ToDoListView: View {
                         .tint(.red)
                     }
                 }
+                .overlay {
+                    if viewModel.toDoList.isEmpty {
+                        ProgressView()
+                    }
+                }
             }
             .navigationTitle("To Do List")
             .toolbar {
@@ -42,14 +47,14 @@ struct ToDoListView: View {
                 } label: {
                     Image(systemName: "plus")
                 }
-
             }
             .sheet(isPresented: $viewModel.showNewItemView) {
                 NewItemView()
                     .environmentObject(viewModel)
             }
             .alert(viewModel.customError?.localizedDescription ?? "", isPresented: $viewModel.showErrorAlert) {
-                Button("OK", role: .cancel) {}            }
+                Button("OK", role: .cancel) {}
+            }
         }
     }
 }

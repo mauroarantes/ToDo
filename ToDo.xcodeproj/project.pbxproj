@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		06C463032B04D6BF0080E90E /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C463022B04D6BF0080E90E /* APIService.swift */; };
 		06C463052B04D6FF0080E90E /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C463042B04D6FF0080E90E /* NetworkError.swift */; };
+		06C463072B04E4E70080E90E /* MockAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C463062B04E4E70080E90E /* MockAPIService.swift */; };
+		06C463092B04E5510080E90E /* MockResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 06C463082B04E5510080E90E /* MockResponse.json */; };
+		06C4630A2B04E5740080E90E /* MockResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 06C463082B04E5510080E90E /* MockResponse.json */; };
 		06D20A102B03A28D00711090 /* ToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D20A0F2B03A28D00711090 /* ToDoApp.swift */; };
 		06D20A142B03A28E00711090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D20A132B03A28E00711090 /* Assets.xcassets */; };
 		06D20A172B03A28E00711090 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D20A162B03A28E00711090 /* Preview Assets.xcassets */; };
@@ -42,6 +45,8 @@
 /* Begin PBXFileReference section */
 		06C463022B04D6BF0080E90E /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		06C463042B04D6FF0080E90E /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		06C463062B04E4E70080E90E /* MockAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIService.swift; sourceTree = "<group>"; };
+		06C463082B04E5510080E90E /* MockResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockResponse.json; sourceTree = "<group>"; };
 		06D20A0C2B03A28D00711090 /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06D20A0F2B03A28D00711090 /* ToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoApp.swift; sourceTree = "<group>"; };
 		06D20A132B03A28E00711090 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -138,6 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				06D20A202B03A28E00711090 /* ToDoTests.swift */,
+				06C463062B04E4E70080E90E /* MockAPIService.swift */,
+				06C463082B04E5510080E90E /* MockResponse.json */,
 			);
 			path = ToDoTests;
 			sourceTree = "<group>";
@@ -281,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06C4630A2B04E5740080E90E /* MockResponse.json in Resources */,
 				06D20A172B03A28E00711090 /* Preview Assets.xcassets in Resources */,
 				06D20A142B03A28E00711090 /* Assets.xcassets in Resources */,
 			);
@@ -290,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06C463092B04E5510080E90E /* MockResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +331,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06C463072B04E4E70080E90E /* MockAPIService.swift in Sources */,
 				06D20A212B03A28E00711090 /* ToDoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

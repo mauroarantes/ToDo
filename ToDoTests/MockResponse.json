@@ -1,0 +1,933 @@
+{
+    "code": 200,
+    "data": [
+        {
+            "_id": "653ec26e5fb59ac9d0ef0b5f",
+            "todoName": "main game",
+            "isComplete": true,
+            "createdAt": "2023-10-29T20:16:11.096Z",
+            "updatedAt": "2023-11-14T15:52:22.762Z",
+            "__v": 0
+        },
+        {
+            "_id": "653ed3064757728637961509",
+            "todoName": "LOL",
+            "isComplete": false,
+            "createdAt": "2023-10-29T21:47:48.852Z",
+            "updatedAt": "2023-11-14T16:31:09.845Z",
+            "__v": 0
+        },
+        {
+            "_id": "653ed69f627e72ffc63157a6",
+            "todoName": "Makan",
+            "createdAt": "2023-10-29T21:58:07.876Z",
+            "updatedAt": "2023-10-29T23:37:47.338Z",
+            "__v": 0,
+            "isComplete": true
+        },
+        {
+            "_id": "653eed12a10e618bac26e2bd",
+            "todoName": "lari",
+            "isComplete": false,
+            "createdAt": "2023-10-29T23:05:07.935Z",
+            "updatedAt": "2023-11-14T16:36:25.690Z",
+            "__v": 0
+        },
+        {
+            "_id": "653ef224b63ef8d8db1f5955",
+            "todoName": "Syahadat",
+            "isComplete": true,
+            "createdAt": "2023-10-29T23:57:00.366Z",
+            "updatedAt": "2023-10-29T23:57:00.366Z",
+            "__v": 0
+        },
+        {
+            "_id": "653ef2f2b63ef8d8db1f5963",
+            "todoName": "Sholat",
+            "isComplete": false,
+            "createdAt": "2023-10-29T23:57:00.366Z",
+            "updatedAt": "2023-11-14T16:36:27.801Z",
+            "__v": 0
+        },
+        {
+            "_id": "653ef371b63ef8d8db1f5967",
+            "todoName": "Puasa",
+            "isComplete": true,
+            "createdAt": "2023-10-29T23:57:00.366Z",
+            "updatedAt": "2023-11-14T15:47:10.052Z",
+            "__v": 0
+        },
+        {
+            "_id": "653ef3c9b63ef8d8db1f5969",
+            "todoName": "Naik Haji Bila Mampu",
+            "isComplete": false,
+            "createdAt": "2023-10-29T23:57:00.366Z",
+            "updatedAt": "2023-11-14T15:39:39.538Z",
+            "__v": 0
+        },
+        {
+            "_id": "653ef605b63ef8d8db1f596f",
+            "todoName": "Mengerjakan Ujian",
+            "isComplete": true,
+            "createdAt": "2023-10-29T23:57:00.366Z",
+            "updatedAt": "2023-11-14T08:23:18.551Z",
+            "__v": 0
+        },
+        {
+            "_id": "653efa00b63ef8d8db1f5999",
+            "todoName": "Menulis",
+            "isComplete": false,
+            "createdAt": "2023-10-29T23:57:00.366Z",
+            "updatedAt": "2023-11-14T15:40:35.426Z",
+            "__v": 0
+        },
+        {
+            "_id": "653efaa8b63ef8d8db1f59a0",
+            "todoName": "Makan",
+            "isComplete": true,
+            "createdAt": "2023-10-29T23:57:00.366Z",
+            "updatedAt": "2023-11-14T09:41:22.729Z",
+            "__v": 0
+        },
+        {
+            "_id": "653efbddb63ef8d8db1f59a6",
+            "todoName": "362258302042-TEGAR GANTENG ",
+            "isComplete": false,
+            "createdAt": "2023-10-29T23:57:00.366Z",
+            "updatedAt": "2023-11-14T09:09:03.429Z",
+            "__v": 0
+        },
+        {
+            "_id": "653efcdbb63ef8d8db1f59bb",
+            "todoName": "SHOFANIQURNIAAZMI",
+            "isComplete": true,
+            "createdAt": "2023-10-29T23:57:00.366Z",
+            "updatedAt": "2023-10-29T23:57:00.366Z",
+            "__v": 0
+        },
+        {
+            "_id": "653efd0eb63ef8d8db1f59c1",
+            "todoName": "Minum",
+            "isComplete": false,
+            "createdAt": "2023-10-29T23:57:00.366Z",
+            "updatedAt": "2023-10-29T23:57:00.366Z",
+            "__v": 0
+        },
+        {
+            "_id": "653efd12b63ef8d8db1f59c3",
+            "todoName": "SHOFANIQURNIAAZMI",
+            "isComplete": true,
+            "createdAt": "2023-10-29T23:57:00.366Z",
+            "updatedAt": "2023-10-29T23:57:00.366Z",
+            "__v": 0
+        },
+        {
+            "_id": "653efd26b63ef8d8db1f59c6",
+            "todoName": "SHOFANIQURNIAAZMI",
+            "isComplete": false,
+            "createdAt": "2023-10-29T23:57:00.366Z",
+            "updatedAt": "2023-11-14T15:40:52.287Z",
+            "__v": 0
+        },
+        {
+            "_id": "653eff29b63ef8d8db1f59d9",
+            "todoName": "362258302042-TEGAR GANTENG ",
+            "isComplete": true,
+            "createdAt": "2023-10-29T23:57:00.366Z",
+            "updatedAt": "2023-10-29T23:57:00.366Z",
+            "__v": 0
+        },
+        {
+            "_id": "653eff7bb63ef8d8db1f59db",
+            "todoName": "TEGAR GANTENG ",
+            "isComplete": false,
+            "createdAt": "2023-10-29T23:57:00.366Z",
+            "updatedAt": "2023-11-14T15:52:30.406Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f0069b63ef8d8db1f59e4",
+            "todoName": "Galang Rambo ",
+            "isComplete": true,
+            "createdAt": "2023-10-29T23:57:00.366Z",
+            "updatedAt": "2023-10-29T23:57:00.366Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f0076b63ef8d8db1f59e6",
+            "todoName": "Lil ",
+            "isComplete": false,
+            "createdAt": "2023-10-29T23:57:00.366Z",
+            "updatedAt": "2023-11-14T15:52:32.867Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f00e4b63ef8d8db1f59eb",
+            "todoName": "Nugraha ",
+            "isComplete": true,
+            "createdAt": "2023-10-29T23:57:00.366Z",
+            "updatedAt": "2023-10-29T23:57:00.366Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f0181b63ef8d8db1f59f8",
+            "todoName": "Nugraha ",
+            "isComplete": false,
+            "createdAt": "2023-10-29T23:57:00.366Z",
+            "updatedAt": "2023-11-14T15:52:35.149Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f0197b63ef8d8db1f59fa",
+            "todoName": "Nugraha ",
+            "isComplete": true,
+            "createdAt": "2023-10-29T23:57:00.366Z",
+            "updatedAt": "2023-10-29T23:57:00.366Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f061850fe94a379e61ac1",
+            "todoName": "362258302170_DINNY",
+            "isComplete": false,
+            "createdAt": "2023-10-30T01:21:31.325Z",
+            "updatedAt": "2023-10-30T01:21:31.325Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f07ce50fe94a379e61ac7",
+            "todoName": "Shafira Maulana Jamil",
+            "isComplete": true,
+            "createdAt": "2023-10-30T01:21:31.325Z",
+            "updatedAt": "2023-10-30T01:21:31.325Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f07fe50fe94a379e61acc",
+            "todoName": "362258302170_DINNY",
+            "isComplete": false,
+            "createdAt": "2023-10-30T01:21:31.325Z",
+            "updatedAt": "2023-10-30T01:21:31.325Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f081350fe94a379e61acf",
+            "todoName": "2F TRPL",
+            "isComplete": true,
+            "createdAt": "2023-10-30T01:21:31.325Z",
+            "updatedAt": "2023-10-30T01:21:31.325Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f084650fe94a379e61ad6",
+            "todoName": "Bisnis dan Informatika",
+            "isComplete": false,
+            "createdAt": "2023-10-30T01:21:31.325Z",
+            "updatedAt": "2023-11-14T15:52:39.312Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f085950fe94a379e61ad8",
+            "todoName": "Politeknik Negeri Banyuwangi",
+            "isComplete": true,
+            "createdAt": "2023-10-30T01:21:31.325Z",
+            "updatedAt": "2023-10-30T01:21:31.325Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f12d70ac93526e6037df7",
+            "todoName": "lari",
+            "isComplete": false,
+            "createdAt": "2023-10-30T01:52:34.413Z",
+            "updatedAt": "2023-11-14T15:53:36.110Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f14220ac93526e6037dfe",
+            "todoName": "362258302156 - Berangkat Kuliah",
+            "isComplete": true,
+            "createdAt": "2023-10-30T01:52:34.413Z",
+            "updatedAt": "2023-10-30T02:27:47.617Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f14bd0ac93526e6037e08",
+            "todoName": "tugas 5",
+            "isComplete": false,
+            "createdAt": "2023-10-30T01:52:34.413Z",
+            "updatedAt": "2023-11-14T15:53:38.690Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f14bf0ac93526e6037e0b",
+            "todoName": "tugas 5",
+            "isComplete": true,
+            "createdAt": "2023-10-30T01:52:34.413Z",
+            "updatedAt": "2023-10-30T01:52:34.413Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f16fb0ac93526e6037e1e",
+            "todoName": "Hiling",
+            "isComplete": false,
+            "createdAt": "2023-10-30T01:52:34.413Z",
+            "updatedAt": "2023-11-14T16:04:39.819Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f17170ac93526e6037e20",
+            "todoName": "Nyapu",
+            "isComplete": true,
+            "createdAt": "2023-10-30T01:52:34.413Z",
+            "updatedAt": "2023-10-30T01:52:34.413Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f17350ac93526e6037e28",
+            "todoName": "Nyapu",
+            "isComplete": false,
+            "createdAt": "2023-10-30T01:52:34.413Z",
+            "updatedAt": "2023-11-14T16:04:41.527Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f176632838f29893903a9",
+            "todoName": "Volly",
+            "isComplete": true,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-10-30T02:38:37.607Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f184832838f29893903be",
+            "todoName": "Makan",
+            "isComplete": false,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-10-30T03:08:46.829Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f18620ac93526e6037e2f",
+            "todoName": "362258302051",
+            "isComplete": true,
+            "createdAt": "2023-10-30T01:52:34.413Z",
+            "updatedAt": "2023-11-14T16:04:44.401Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f18df0ac93526e6037e3b",
+            "todoName": "362258302155",
+            "isComplete": false,
+            "createdAt": "2023-10-30T01:52:34.413Z",
+            "updatedAt": "2023-10-30T01:52:34.413Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f18fa0ac93526e6037e3e",
+            "todoName": "semester 1",
+            "isComplete": true,
+            "createdAt": "2023-10-30T01:52:34.413Z",
+            "updatedAt": "2023-10-30T01:52:34.413Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f191f0ac93526e6037e41",
+            "todoName": "KiwKiw",
+            "isComplete": false,
+            "createdAt": "2023-10-30T01:52:34.413Z",
+            "updatedAt": "2023-11-14T16:04:46.268Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f192d0ac93526e6037e47",
+            "todoName": "semester 3",
+            "isComplete": true,
+            "createdAt": "2023-10-30T01:52:34.413Z",
+            "updatedAt": "2023-10-30T01:52:34.413Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f19460ac93526e6037e4a",
+            "todoName": "semester 4",
+            "isComplete": false,
+            "createdAt": "2023-10-30T01:52:34.413Z",
+            "updatedAt": "2023-11-14T16:07:17.691Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f194f0ac93526e6037e4c",
+            "todoName": "Bantal",
+            "isComplete": true,
+            "createdAt": "2023-10-30T01:52:34.413Z",
+            "updatedAt": "2023-10-30T01:52:34.413Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f196c0ac93526e6037e4f",
+            "todoName": "KiwKiw",
+            "isComplete": false,
+            "createdAt": "2023-10-30T01:52:34.413Z",
+            "updatedAt": "2023-11-14T16:07:19.170Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f19780ac93526e6037e54",
+            "todoName": "KiwKiw",
+            "isComplete": true,
+            "createdAt": "2023-10-30T01:52:34.413Z",
+            "updatedAt": "2023-10-30T01:52:34.413Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f19ed41075c6067126563",
+            "todoName": "Bersepeda",
+            "isComplete": false,
+            "createdAt": "2023-10-30T02:49:12.606Z",
+            "updatedAt": "2023-11-14T16:07:22.436Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f19ef41075c6067126565",
+            "todoName": "362258302155_Friska Apriliana Hidayati",
+            "isComplete": true,
+            "createdAt": "2023-10-30T02:49:12.606Z",
+            "updatedAt": "2023-11-14T16:07:24.119Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f19f541075c6067126567",
+            "todoName": "Membaca",
+            "isComplete": false,
+            "createdAt": "2023-10-30T02:49:12.606Z",
+            "updatedAt": "2023-10-30T02:49:12.606Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1a0e32838f29893903c4",
+            "todoName": "KiwKiw",
+            "isComplete": true,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-10-30T02:38:37.607Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1a1132838f29893903c6",
+            "todoName": "362258302051",
+            "isComplete": false,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-10-30T02:38:37.607Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1a3932838f29893903cb",
+            "todoName": "Membaca",
+            "isComplete": true,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-11-14T16:14:06.282Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1a6732838f29893903d0",
+            "todoName": "362258302024",
+            "isComplete": false,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-10-30T02:38:37.607Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1a7932838f29893903d5",
+            "todoName": "galang ciu",
+            "isComplete": true,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-10-30T02:38:37.607Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1a7a32838f29893903d7",
+            "todoName": "Membaca",
+            "isComplete": false,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-10-30T02:38:37.607Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1aa932838f29893903dc",
+            "todoName": "362258302155_Friska Apriliana Hidayati",
+            "isComplete": true,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-11-14T16:14:16.688Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1aac32838f29893903df",
+            "todoName": "KiwKiw",
+            "isComplete": false,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-11-14T16:14:18.248Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1aea32838f29893903e5",
+            "todoName": "Menikah",
+            "isComplete": true,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-10-30T02:38:37.607Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1af941075c606712656c",
+            "todoName": "Nyapu",
+            "isComplete": false,
+            "createdAt": "2023-10-30T02:49:12.606Z",
+            "updatedAt": "2023-11-14T16:14:19.676Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1afa41075c606712656e",
+            "todoName": "Bantal",
+            "isComplete": true,
+            "createdAt": "2023-10-30T02:49:12.606Z",
+            "updatedAt": "2023-10-30T02:49:12.606Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1afb41075c6067126570",
+            "todoName": "Bersepeda",
+            "isComplete": false,
+            "createdAt": "2023-10-30T02:49:12.606Z",
+            "updatedAt": "2023-10-30T03:10:41.979Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1b3241075c6067126574",
+            "todoName": "Membaca",
+            "isComplete": true,
+            "createdAt": "2023-10-30T02:49:12.606Z",
+            "updatedAt": "2023-10-30T03:05:28.905Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1b3841075c6067126576",
+            "todoName": "KiwKiw",
+            "isComplete": false,
+            "createdAt": "2023-10-30T02:49:12.606Z",
+            "updatedAt": "2023-11-14T16:36:38.103Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1bad41075c6067126581",
+            "todoName": "tugas 5",
+            "isComplete": true,
+            "createdAt": "2023-10-30T02:49:12.606Z",
+            "updatedAt": "2023-11-14T16:14:24.717Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1baf41075c6067126583",
+            "todoName": "Nonton",
+            "isComplete": false,
+            "createdAt": "2023-10-30T02:49:12.606Z",
+            "updatedAt": "2023-10-30T03:24:58.882Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1bd441075c6067126589",
+            "todoName": "Memancing amarah",
+            "isComplete": true,
+            "createdAt": "2023-10-30T02:49:12.606Z",
+            "updatedAt": "2023-10-30T02:49:12.606Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1c2841075c6067126594",
+            "todoName": "makan",
+            "isComplete": false,
+            "createdAt": "2023-10-30T02:49:12.606Z",
+            "updatedAt": "2023-10-30T02:49:12.606Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1c7a32838f29893903f0",
+            "todoName": "Keset",
+            "isComplete": true,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-10-30T02:38:37.607Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1cb232838f29893903f4",
+            "todoName": "362258302038_Fathir Tyo Prastianto",
+            "isComplete": false,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-10-30T02:38:37.607Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1cb432838f29893903f7",
+            "todoName": "diam",
+            "isComplete": true,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-11-14T16:27:54.072Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1cbd32838f29893903fa",
+            "todoName": "362258302038_Fathir Tyo Prastianto",
+            "isComplete": false,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-10-30T02:38:37.607Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1ce832838f2989390400",
+            "todoName": "tugas 5",
+            "isComplete": true,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-10-30T02:38:37.607Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1cec32838f2989390402",
+            "todoName": "Merokok",
+            "isComplete": false,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-11-14T16:27:56.166Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1d2932838f2989390408",
+            "todoName": "Hiling",
+            "isComplete": true,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-10-30T02:38:37.607Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1d2a32838f298939040a",
+            "todoName": "Bantal",
+            "isComplete": false,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-11-14T16:27:57.893Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1d7041075c606712659b",
+            "todoName": "Punyaku",
+            "isComplete": true,
+            "createdAt": "2023-10-30T02:49:12.606Z",
+            "updatedAt": "2023-10-30T02:49:12.606Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1dcf41075c60671265a6",
+            "todoName": "KiwKiw2",
+            "isComplete": false,
+            "createdAt": "2023-10-30T02:49:12.606Z",
+            "updatedAt": "2023-11-14T16:28:04.635Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1df441075c60671265a9",
+            "todoName": "tugas 1",
+            "isComplete": true,
+            "createdAt": "2023-10-30T02:49:12.606Z",
+            "updatedAt": "2023-10-30T02:49:12.606Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1e0541075c60671265ad",
+            "todoName": "tugas 1",
+            "isComplete": false,
+            "createdAt": "2023-10-30T02:49:12.606Z",
+            "updatedAt": "2023-10-30T03:09:15.345Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1e0941075c60671265af",
+            "todoName": "Merokok",
+            "isComplete": true,
+            "createdAt": "2023-10-30T02:49:12.606Z",
+            "updatedAt": "2023-11-14T16:28:06.216Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1e0d41075c60671265b1",
+            "todoName": "Membaca",
+            "isComplete": false,
+            "createdAt": "2023-10-30T02:49:12.606Z",
+            "updatedAt": "2023-10-30T02:49:12.606Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1e5332838f2989390412",
+            "todoName": "Kursi",
+            "isComplete": true,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-10-30T02:38:37.607Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1e9832838f2989390419",
+            "todoName": "362258302149_Febrika Dicky Anggoro",
+            "isComplete": false,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-10-30T02:38:37.607Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1ed741075c60671265ba",
+            "todoName": "362258302170",
+            "isComplete": true,
+            "createdAt": "2023-10-30T02:49:12.606Z",
+            "updatedAt": "2023-11-14T16:30:54.170Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1f0e41075c60671265c2",
+            "todoName": "streaming",
+            "isComplete": false,
+            "createdAt": "2023-10-30T02:49:12.606Z",
+            "updatedAt": "2023-10-30T02:49:12.606Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1f1641075c60671265c4",
+            "todoName": "Meja",
+            "isComplete": true,
+            "createdAt": "2023-10-30T02:49:12.606Z",
+            "updatedAt": "2023-10-30T02:49:12.606Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1f2a41075c60671265c7",
+            "todoName": "Membangun Rumah Tangga",
+            "isComplete": false,
+            "createdAt": "2023-10-30T02:49:12.606Z",
+            "updatedAt": "2023-11-14T16:30:55.868Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1f5d32838f2989390421",
+            "todoName": "Bantal",
+            "isComplete": true,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-10-30T02:38:37.607Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1f7e32838f2989390426",
+            "todoName": "streaming",
+            "isComplete": false,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-10-30T02:38:37.607Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f1f9c32838f2989390429",
+            "todoName": "Keset",
+            "isComplete": true,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-10-30T02:38:37.607Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f201832838f2989390432",
+            "todoName": "lompat",
+            "isComplete": false,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-11-14T16:30:40.018Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f205932838f2989390437",
+            "todoName": "Memancing amarah",
+            "isComplete": true,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-10-30T02:38:37.607Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f206332838f298939043a",
+            "todoName": "Kursi",
+            "isComplete": false,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-11-14T16:30:41.547Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f209232838f298939043d",
+            "todoName": "Menikah",
+            "isComplete": true,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-10-30T02:38:37.607Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f20df32838f2989390445",
+            "todoName": "tugas 5",
+            "isComplete": false,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-10-30T03:21:21.665Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f210f32838f2989390449",
+            "todoName": "Memancing amarah",
+            "isComplete": true,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-10-30T02:38:37.607Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f212f32838f298939044d",
+            "todoName": "streaming",
+            "isComplete": false,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-10-30T02:38:37.607Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f214a32838f2989390450",
+            "todoName": "362258302137",
+            "isComplete": true,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-11-15T10:01:54.926Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f218532838f2989390453",
+            "todoName": "streaming",
+            "isComplete": false,
+            "createdAt": "2023-10-30T02:38:37.607Z",
+            "updatedAt": "2023-11-15T10:01:56.992Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f22a5a7e14505aea96ce8",
+            "todoName": "semester 1",
+            "isComplete": true,
+            "createdAt": "2023-10-30T03:27:31.678Z",
+            "updatedAt": "2023-10-30T03:27:31.678Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f2469a7e14505aea96d09",
+            "todoName": "KiwKiw2",
+            "isComplete": false,
+            "createdAt": "2023-10-30T03:27:31.678Z",
+            "updatedAt": "2023-10-30T03:35:53.088Z",
+            "__v": 0
+        },
+        {
+            "_id": "653f255ca7e14505aea96d0d",
+            "todoName": "362258302017-lama",
+            "isComplete": true,
+            "createdAt": "2023-10-30T03:27:31.678Z",
+            "updatedAt": "2023-10-30T03:39:38.986Z",
+            "__v": 0
+        },
+        {
+            "_id": "6541bccafa0f269b81bbfbbb",
+            "todoName": "App",
+            "isComplete": false,
+            "createdAt": "2023-11-01T02:49:44.030Z",
+            "updatedAt": "2023-11-01T02:49:44.030Z",
+            "__v": 0
+        },
+        {
+            "_id": "6541d9f34eeceb17e6fb5e7c",
+            "todoName": "yyty",
+            "isComplete": true,
+            "createdAt": "2023-11-01T04:54:05.710Z",
+            "updatedAt": "2023-11-11T09:37:45.789Z",
+            "__v": 0
+        },
+        {
+            "_id": "6541d9f44eeceb17e6fb5e7e",
+            "todoName": "yyty",
+            "isComplete": false,
+            "createdAt": "2023-11-01T04:54:05.710Z",
+            "updatedAt": "2023-11-01T04:54:05.710Z",
+            "__v": 0
+        },
+        {
+            "_id": "6541d9fa1b2ec01ccce09df0",
+            "todoName": "yytyttt",
+            "isComplete": true,
+            "createdAt": "2023-11-01T04:54:09.808Z",
+            "updatedAt": "2023-11-14T16:23:26.945Z",
+            "__v": 0
+        },
+        {
+            "_id": "6541d9fd81f7db5e5e74fc1c",
+            "todoName": "yytyttt",
+            "isComplete": false,
+            "createdAt": "2023-11-01T04:54:19.834Z",
+            "updatedAt": "2023-11-01T04:54:19.834Z",
+            "__v": 0
+        },
+        {
+            "_id": "6541da294eeceb17e6fb5e83",
+            "todoName": "manoj",
+            "isComplete": true,
+            "createdAt": "2023-11-01T04:54:05.710Z",
+            "updatedAt": "2023-11-14T16:23:28.750Z",
+            "__v": 0
+        },
+        {
+            "_id": "6541da314eeceb17e6fb5e88",
+            "todoName": "manoj",
+            "isComplete": false,
+            "createdAt": "2023-11-01T04:54:05.710Z",
+            "updatedAt": "2023-11-01T04:54:05.710Z",
+            "__v": 0
+        },
+        {
+            "_id": "6541da314eeceb17e6fb5e8a",
+            "todoName": "manoj",
+            "isComplete": true,
+            "createdAt": "2023-11-01T04:54:05.710Z",
+            "updatedAt": "2023-11-14T16:23:30.228Z",
+            "__v": 0
+        },
+        {
+            "_id": "6541da3281f7db5e5e74fc21",
+            "todoName": "manoj",
+            "isComplete": false,
+            "createdAt": "2023-11-01T04:54:19.834Z",
+            "updatedAt": "2023-11-01T04:54:19.834Z",
+            "__v": 0
+        },
+        {
+            "_id": "6541fe69cf0827f0d5ad4736",
+            "todoName": "qea",
+            "isComplete": true,
+            "createdAt": "2023-11-01T07:29:43.300Z",
+            "updatedAt": "2023-11-01T11:49:44.654Z",
+            "__v": 0
+        },
+        {
+            "_id": "65423ac7a3bfc99957770d95",
+            "todoName": "saran",
+            "createdAt": "2023-11-01T11:46:10.515Z",
+            "updatedAt": "2023-11-01T11:49:42.243Z",
+            "__v": 0,
+            "isComplete": false
+        },
+        {
+            "_id": "6543626a960aa88d9104e74c",
+            "todoName": "saasas",
+            "isComplete": true,
+            "createdAt": "2023-11-02T08:48:40.039Z",
+            "updatedAt": "2023-11-14T15:55:24.672Z",
+            "__v": 0
+        },
+        {
+            "_id": "6554abfcbce791e1302a824f",
+            "todoName": "Mm22",
+            "isComplete": false,
+            "createdAt": "2023-11-15T11:19:13.799Z",
+            "updatedAt": "2023-11-15T11:19:13.799Z",
+            "__v": 0
+        }
+    ]
+}

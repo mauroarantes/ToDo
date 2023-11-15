@@ -10,6 +10,7 @@ import Combine
 
 class ToDoListViewModel: ObservableObject {
     
+    let apiEndPoint = "https://calm-plum-jaguar-tutu.cyclic.app/todos/"
     var apiService: APIServiceProtocol
     var cancellables = Set<AnyCancellable>()
     @Published var toDoList: [ToDoItem] = []
@@ -24,7 +25,7 @@ class ToDoListViewModel: ObservableObject {
     
     func getList() {
         
-        guard let url = URL(string: "https://calm-plum-jaguar-tutu.cyclic.app/todos") else { return }
+        guard let url = URL(string: apiEndPoint) else { return }
         
         apiService.getList(url: url)
             .subscribe(on: DispatchQueue.global(qos: .background))
@@ -53,7 +54,7 @@ class ToDoListViewModel: ObservableObject {
     
     func createItem(parameters: [String: Any]) {
         
-        guard let url = URL(string: "https://calm-plum-jaguar-tutu.cyclic.app/todos") else { return }
+        guard let url = URL(string: apiEndPoint) else { return }
         
         let data = try! JSONSerialization.data(withJSONObject: parameters)
         
@@ -93,12 +94,11 @@ class ToDoListViewModel: ObservableObject {
                 self?.getList()
             }
             .store(in: &cancellables)
-
     }
     
     func updateItem(id: String, parameters: [String: Any]) {
         
-        guard let url = URL(string: "https://calm-plum-jaguar-tutu.cyclic.app/todos/\(id)") else { return }
+        guard let url = URL(string: apiEndPoint + id) else { return }
         
         let data = try! JSONSerialization.data(withJSONObject: parameters)
         
@@ -138,12 +138,11 @@ class ToDoListViewModel: ObservableObject {
                 self?.getList()
             }
             .store(in: &cancellables)
-
     }
     
     func deleteItem(id: String) {
         
-        guard let url = URL(string: "https://calm-plum-jaguar-tutu.cyclic.app/todos/\(id)") else { return }
+        guard let url = URL(string: apiEndPoint + id) else { return }
         
         var request = URLRequest(url: url)
         request.httpMethod = "DELETE"
@@ -180,7 +179,6 @@ class ToDoListViewModel: ObservableObject {
                 self?.getList()
             }
             .store(in: &cancellables)
-
     }
 
 }
