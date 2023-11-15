@@ -10,12 +10,15 @@ import Combine
 
 class ToDoListViewModel: ObservableObject {
     
+    var apiService: APIServiceProtocol
     var cancellables = Set<AnyCancellable>()
     @Published var toDoList: [ToDoItem] = []
     @Published var showNewItemView = false
-    @Published var showUpdateItemView = false
+    @Published var customError: NetworkError?
+    @Published var showErrorAlert = false
     
-    init() {
+    init(apiService: APIServiceProtocol) {
+        self.apiService = apiService
         getList()
     }
     
@@ -23,23 +26,29 @@ class ToDoListViewModel: ObservableObject {
         
         guard let url = URL(string: "https://calm-plum-jaguar-tutu.cyclic.app/todos") else { return }
         
-        URLSession.shared.dataTaskPublisher(for: url)
+        apiService.getList(url: url)
             .subscribe(on: DispatchQueue.global(qos: .background))
-            .receive(on: DispatchQueue.main)
-            .tryMap { (data, response) -> Data in
-                guard let response = response as? HTTPURLResponse, response.statusCode >= 200 && response.statusCode < 300 else {
-                    throw URLError(.badServerResponse)
-                }
-                return data
-            }
-            .decode(type: ToDoListModel.self, decoder: JSONDecoder())
             .sink { completion in
-                print("GET COMPLETION: \(completion)")
+                switch completion{
+                case .failure(let error):
+                    switch error {
+                    case is URLError:
+                        self.customError = NetworkError.tooManyRequests
+                    case NetworkError.dataNotFound:
+                        self.customError = NetworkError.dataNotFound
+                    case NetworkError.parsingError:
+                        self.customError = NetworkError.parsingError
+                    default:
+                        self.customError = NetworkError.dataNotFound
+                    }
+                    self.showErrorAlert = true
+                case .finished:
+                    print("GET COMPLETION: \(completion)")
+                }
             } receiveValue: { [weak self] toDoList in
                 self?.toDoList = toDoList.data
             }
             .store(in: &cancellables)
-
     }
     
     func createItem(parameters: [String: Any]) {
@@ -64,7 +73,22 @@ class ToDoListViewModel: ObservableObject {
             }
             .decode(type: CreateItemModel.self, decoder: JSONDecoder())
             .sink { completion in
-                print("POST COMPLETION: \(completion)")
+                switch completion{
+                case .failure(let error):
+                    switch error {
+                    case is URLError:
+                        self.customError = NetworkError.tooManyRequests
+                    case NetworkError.dataNotFound:
+                        self.customError = NetworkError.dataNotFound
+                    case NetworkError.parsingError:
+                        self.customError = NetworkError.parsingError
+                    default:
+                        self.customError = NetworkError.dataNotFound
+                    }
+                    self.showErrorAlert = true
+                case .finished:
+                    print("POST COMPLETION: \(completion)")
+                }
             } receiveValue: { [weak self] _ in
                 self?.getList()
             }
@@ -94,7 +118,22 @@ class ToDoListViewModel: ObservableObject {
             }
             .decode(type: CreateItemModel.self, decoder: JSONDecoder())
             .sink { completion in
-                print("PUT COMPLETION: \(completion)")
+                switch completion{
+                case .failure(let error):
+                    switch error {
+                    case is URLError:
+                        self.customError = NetworkError.tooManyRequests
+                    case NetworkError.dataNotFound:
+                        self.customError = NetworkError.dataNotFound
+                    case NetworkError.parsingError:
+                        self.customError = NetworkError.parsingError
+                    default:
+                        self.customError = NetworkError.dataNotFound
+                    }
+                    self.showErrorAlert = true
+                case .finished:
+                    print("PUT COMPLETION: \(completion)")
+                }
             } receiveValue: { [weak self] _ in
                 self?.getList()
             }
@@ -121,7 +160,22 @@ class ToDoListViewModel: ObservableObject {
             }
             .decode(type: DeleteItemModel.self, decoder: JSONDecoder())
             .sink { completion in
-                print("DELETE COMPLETION: \(completion)")
+                switch completion{
+                case .failure(let error):
+                    switch error {
+                    case is URLError:
+                        self.customError = NetworkError.tooManyRequests
+                    case NetworkError.dataNotFound:
+                        self.customError = NetworkError.dataNotFound
+                    case NetworkError.parsingError:
+                        self.customError = NetworkError.parsingError
+                    default:
+                        self.customError = NetworkError.dataNotFound
+                    }
+                    self.showErrorAlert = true
+                case .finished:
+                    print("DELETE COMPLETION: \(completion)")
+                }
             } receiveValue: { [weak self] _ in
                 self?.getList()
             }

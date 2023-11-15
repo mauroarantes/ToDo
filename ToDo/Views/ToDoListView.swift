@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ToDoListView: View {
     
-    @StateObject var viewModel = ToDoListViewModel()
+    @StateObject var viewModel = ToDoListViewModel(apiService: APIService())
     
     var body: some View {
         NavigationView {
@@ -48,6 +48,8 @@ struct ToDoListView: View {
                 NewItemView()
                     .environmentObject(viewModel)
             }
+            .alert(viewModel.customError?.localizedDescription ?? "", isPresented: $viewModel.showErrorAlert) {
+                Button("OK", role: .cancel) {}            }
         }
     }
 }

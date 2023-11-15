@@ -12,7 +12,4 @@ class NewItemViewModel: ObservableObject {
     @Published var name = ""
     @Published var isComplete = false
     
-    func save() {
-        
-    }
 }

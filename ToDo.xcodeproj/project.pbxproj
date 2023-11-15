@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06C463032B04D6BF0080E90E /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C463022B04D6BF0080E90E /* APIService.swift */; };
+		06C463052B04D6FF0080E90E /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C463042B04D6FF0080E90E /* NetworkError.swift */; };
 		06D20A102B03A28D00711090 /* ToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D20A0F2B03A28D00711090 /* ToDoApp.swift */; };
 		06D20A142B03A28E00711090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D20A132B03A28E00711090 /* Assets.xcassets */; };
 		06D20A172B03A28E00711090 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D20A162B03A28E00711090 /* Preview Assets.xcassets */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06C463022B04D6BF0080E90E /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		06C463042B04D6FF0080E90E /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		06D20A0C2B03A28D00711090 /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06D20A0F2B03A28D00711090 /* ToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoApp.swift; sourceTree = "<group>"; };
 		06D20A132B03A28E00711090 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06C463012B04D6B40080E90E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				06C463022B04D6BF0080E90E /* APIService.swift */,
+				06C463042B04D6FF0080E90E /* NetworkError.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		06D20A032B03A28D00711090 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +115,7 @@
 		06D20A0E2B03A28D00711090 /* ToDo */ = {
 			isa = PBXGroup;
 			children = (
+				06C463012B04D6B40080E90E /* Services */,
 				06D20A3D2B03AC4100711090 /* ViewModels */,
 				06D20A3C2B03AC3B00711090 /* Models */,
 				06D20A3B2B03AC2900711090 /* Views */,
@@ -294,6 +308,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				06D20A3F2B03AC5A00711090 /* ToDoListViewModel.swift in Sources */,
+				06C463052B04D6FF0080E90E /* NetworkError.swift in Sources */,
+				06C463032B04D6BF0080E90E /* APIService.swift in Sources */,
 				06D20A412B03AFB500711090 /* ToDoListModel.swift in Sources */,
 				06D20A452B03B3C400711090 /* NewItemViewModel.swift in Sources */,
 				06D20A3A2B03AA6200711090 /* ToDoListView.swift in Sources */,
